@@ -12,7 +12,7 @@ When it comes to text analysis the programming language I wanted to utilize was 
 First step is to create a function that is able to read a text file from an input. By default, if there is no text file then the exercisedocument.txt file will run that way we are parsing some sort of file.
 
 
-After, the text file we need inputs from the user on whether to exclude stop words, consider stem words, top results desired (fun little exercise for myself) and if they use stop words a file that contains the stem words so that can be used.
+After, the text file we need inputs from the user on whether to exclude stop words, consider stem words, top results desired (fun little exercise for myself), and if they use stop words a file that contains a list of stop words that we can use.
 
 
 If the user wants to use stop words then we must read the file that contains the stop words and use a set to store all the words that are considered stop words and store that into a set variable.
