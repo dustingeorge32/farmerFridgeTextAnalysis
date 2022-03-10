@@ -59,3 +59,9 @@ https://www.anaconda.com/products/individual
 
 Once anaconda is up and running you can open the file directly through the browser (automatically opens when running Anaconda). I use Chrome personally. You can access your OS's file storage and get to the Text Analysis file. Open it up and a new Jupyter Notebook tab opens. Next, for Mac users you can use the keyboard shortcut Shift + Enter to run a cell or you can click into a cell (Blue highlight to indicate you are in a cell) and use the navigation to run (Cell --> Run Cells). Make sure you run the cells in order. 
 
+
+
+##Hours Spent##
+
+
+I received this assessment Monday during the day. So I worked on this assignment for 2-3 hours per day since then so a total of 6-9 hours (varied because I don't have the exact time frame)
