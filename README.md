@@ -33,9 +33,29 @@ The easy check for a dictionary is if the word is in the dictionary then we just
 Finally, we sort the dicionary by the value so the most popular words are in the beginning of the dictionary.
 
 ##Step 3 Saving the results##
+
+
 For the saving, we check if there is a file that exists, if not we create a new file otherwise we just create a file with the same file name with an appended number.
 
 We are writing the top 25 or the number that the user inputs. We also write the list of stop words, if the user wants to use stop words, and the original text. 
 
 
+
+##Libraries##
+
+The libraries imported was:
+io - for reading and writing files
+os - to determine if a file exists on the operating system before creating a new file
+
+
+##Set Up##
+
+I built this application using Jupyter Notebook so the best installation steps are here: 
+https://docs.anaconda.com/anaconda/install/index.html
+
+I also used the individual package to run anaconda
+https://www.anaconda.com/products/individual
+
+
+Once anaconda is up and running you can open the file directly through the browser (automatically opens when running Anaconda). I use Chrome personally. You can access your OS's file storage and get to the Text Analysis file. Open it up and a new Jupyter Notebook tab opens. Next, for Mac users you can use the keyboard shortcut Shift + Enter to run a cell or you can click into a cell (Blue highlight to indicate you are in a cell) and use the navigation to run (Cell --> Run Cells). Make sure you run the cells in order. 
 
