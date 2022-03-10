@@ -21,21 +21,21 @@ If the user wants to use stop words then we must read the file that contains the
 ##Step 2 Writing to the dictionary/keeping track of word frequency##
 
 
-When reading the file and extracting each word, there needs to be a check to see if we are using stop words, if yes then see if the word is within the set mentioned earlier otherwise we will add the word to the dictionary.
+When reading the file and extracting each word, there needs to be a check to see if we are using stop words, if yes then see if the word is within the set mentioned earlier; otherwise, we will add the word to the dictionary.
 
 
-If we want to use stem words that we transform the word to use the root word and append any letters that are needed as well. Once that is done we add that to the dictionary.
+If we want to use stem words, then we transform the word to use the root word and append any letters that are needed as well. Once that is done we add that to the dictionary.
 
 
-The easy check for a dictionary is if the word is in the dictionary then we just increment the count; otherwise, we just insert it as a new word we saw with the value of 1. 
+The easy check for a dictionary is if the word is in the dictionary already then we just increment the count(value); otherwise, we just insert it as a new word we saw with the value of 1. 
 
 
-Finally, we sort the dicionary by the value so the most popular words are in the beginning of the dictionary.
+Finally, we sort the dicionary by the values so the most popular words are in the beginning of the dictionary.
 
 ##Step 3 Saving the results##
 
 
-For the saving, we check if there is a file that exists, if not we create a new file otherwise we just create a file with the same file name with an appended number.
+For the saving, we check if there is a file that exists, if not we create a new file; otherwise, we just create a file with the same file name with an appended number.
 
 We are writing the top 25 or the number that the user inputs. We also write the list of stop words, if the user wants to use stop words, and the original text. 
 
@@ -53,11 +53,11 @@ os - to determine if a file exists on the operating system before creating a new
 I built this application using Jupyter Notebook so the best installation steps are here: 
 https://docs.anaconda.com/anaconda/install/index.html
 
-I also used the individual package to run anaconda
+I also used the individual package to run Anaconda
 https://www.anaconda.com/products/individual
 
 
-Once anaconda is up and running you can open the file directly through the browser (automatically opens when running Anaconda). I use Chrome personally. You can access your OS's file storage and get to the Text Analysis file. Open it up and a new Jupyter Notebook tab opens. Next, for Mac users you can use the keyboard shortcut Shift + Enter to run a cell or you can click into a cell (Blue highlight to indicate you are in a cell) and use the navigation to run (Cell --> Run Cells). Make sure you run the cells in order. 
+Once Anaconda is up and running you can open the file directly through the browser (automatically opens when running Anaconda). I use Chrome personally. You can access your OS's file storage and get to the Text Analysis file. Open it up and a new Jupyter Notebook tab opens. Next, for Mac users you can use the keyboard shortcut Shift + Enter to run a cell or you can click into a cell (Blue highlight to indicate you are in a cell) and use the navigation to run (Cell --> Run Cells). Make sure you run the cells in order because if you do not unexpected errors arise since variable declarations may not have been done properly. 
 
 
 
